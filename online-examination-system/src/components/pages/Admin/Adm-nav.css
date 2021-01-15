@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+adm-nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.adm-li, .adm-a {
+   
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: cornsilk;
+    text-decoration: none;
+}
+.adm-a:hover{
+    color: rgb(0, 255, 85);
+}

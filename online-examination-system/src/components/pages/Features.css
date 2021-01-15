@@ -1,0 +1,45 @@
+.row1{
+    padding-top: 30px;
+    height: 20vh;
+    color: White;
+    font-family: 'Lato';
+    background-image: linear-gradient(to right, rgb(24, 81, 134) , rgb(123, 215, 243));
+}
+
+.main-text1{
+    margin-left: 260px; 
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+.para{
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.container2{
+    margin-top: 80px;
+    /* margin-left: 100px; */
+    /* height:80vh; */
+    background-color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.icon{
+    text-align: center;
+    font-size: 3em;
+    color: #1c2237;
+}
+
+.card-text{
+    margin-top: 25px;
+    text-align: left;
+    padding:10px;
+}
+
+.row2{
+    margin-bottom: 30px;
+}

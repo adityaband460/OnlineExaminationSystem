@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "nodemailer": "^6.4.17",
+    "nodemailer-mailgun-transport": "^2.0.2",
+    "nodemon": "^2.0.7",
+    "react-timer-hook": "^2.0.7",
+    "react-uuid": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon server.js",
+    "online-examination-system": " npm start --prefix online-examination-system",
+    "dev": "concurrently \"npm run server\" \"npm run online-examination-system\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

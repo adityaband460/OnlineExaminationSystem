@@ -1,0 +1,7 @@
+#canvas{
+    height: 345px;
+    width:100%;
+    /* width:980px; */
+    background-image: linear-gradient(to right, rgb(24, 81, 134) , rgb(123, 215, 243));
+    background-size: cover;
+}

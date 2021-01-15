@@ -1,0 +1,41 @@
+
+  
+  .view{
+      padding-top: 45px;
+      height: 90vh;
+      padding-left: 180px;
+      color: white;
+      
+  }
+
+  .hide{
+    padding-top: 150px;
+    font-size: 2em;
+  }
+
+  .c {
+    position: absolute;
+    width: 50ch;
+    height: 50ch;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+  
+  .front,
+  .back {
+    padding-top:40px;
+    background-size: cover;
+    margin:auto;
+    width: 72%;
+  }
+
+  .back{
+    background-image: linear-gradient(to right, rgb(24, 81, 134) , rgb(123, 215, 243));
+  }
+  .front{
+    background-color: white;
+    color:black;
+  }
+  
+  
+  

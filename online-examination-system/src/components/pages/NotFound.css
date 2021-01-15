@@ -1,0 +1,23 @@
+.notfound{
+    background-image: url('./pagenotfound.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 80vh;
+}
+
+.heading,.text{
+    margin-left: 50px;
+}
+
+.heading{
+    text-align: left;
+    color:red;
+    font-size: 40px;
+    padding-top: 130px;
+}
+
+.text{
+    text-align: left;
+    font-size: 20px;
+    width: 30%;
+}
